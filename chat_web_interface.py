@@ -196,6 +196,7 @@ if __name__ == "__main__":
     demo.launch(
         server_name="0.0.0.0",
         server_port=7860,
-        share=False,  # Set to True to create a public link
-        inbrowser=True
+        share=True,  # Set to True to create a public link
+        inbrowser=False,  # Don't auto-open browser on server
+        show_error=True  # Show detailed errors
     )
